@@ -2,7 +2,7 @@ i = 0
 tab = []
 
 
-while i < 49 do
+while i < 50 do
     i = i + 1
 
 if i < 10
