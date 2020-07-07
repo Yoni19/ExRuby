@@ -1,15 +1,13 @@
-puts "Quelle est votre année de naissance ?"
+puts "Quelle est votre age ?"
 birthdate = gets.chomp
  i  = birthdate.to_i
  x = 0
- today = 2020
- y = today - i 
 
 
 
-while   i != today
-    i = i + 1
-    y = y - 1
+
+while   x < i do
+   
+    puts "il y a #{i - x} ans, vous aviez #{x} ans"    
     x = x + 1
-    puts "il y a #{y} ans, vous aviez #{x} ans"    
 end 
